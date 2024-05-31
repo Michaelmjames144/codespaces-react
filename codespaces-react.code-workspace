@@ -1,4 +1,83 @@
-{
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cyber Security Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Cyber Security Hub</h2>
+            <p>Your source for the latest in cyber security news and resources.</p>
+        </section>
+        <section>
+            <h2>Latest Articles</h2>
+            <!-- List of articles -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cyber Security Hub. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!-- about.html, services.html, contact.html follow similar structure -->
+
+/* css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 2rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* js/script.js */
+// Add interactivity if needed{
 	"folders": [
 		{
 			"path": "."
